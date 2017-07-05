@@ -1,4 +1,4 @@
 FROM alpine:latest
 COPY VERSION VERSION
 
-CMD cat VERSIKN
+CMD cat VERSION
