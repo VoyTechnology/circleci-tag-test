@@ -1,3 +1,7 @@
+test:
+  override:
+    - cat VERSION
+
 deployment:
   deploy:
     branch: master
