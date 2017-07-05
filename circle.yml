@@ -6,5 +6,5 @@ deployment:
   deploy:
     branch: master
     commands:
-    - git tag -a `cat VERSION` -m `cat VERSION` || true
-    - git push -f
+    - git tag `cat VERSION` || true
+    - git push origin --tags
